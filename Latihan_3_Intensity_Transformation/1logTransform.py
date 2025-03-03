@@ -9,3 +9,5 @@ log_transformed = c * np.log(1 + img)
 log_transformed = np.array(log_transformed, dtype = np.uint8) 
  
 cv2.imwrite('log_transformed.jpg', log_transformed) 
+
+# comment
